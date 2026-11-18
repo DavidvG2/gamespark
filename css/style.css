@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+
+}
+.sec2
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-evenly;
+}
+header{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+
+}
+header p{
+    font-size: 30px;
+    padding: 10px;
+}   
+header nav{
+  font-size: 20px;
+    padding: 10px;
+   
+}
+header nav a{
+   text-decoration: none;
+   border: 3px solid black;
+   border-radius: 6px;
+}
+.headerlogo{
+    display: flex;
+}

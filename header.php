@@ -6,9 +6,9 @@
     </div>
 
     <nav>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
+        <a href="">games</a>
+        <a href="">over ons</a>
+        <a href="">huej</a>
     </nav>
 
    </header>
