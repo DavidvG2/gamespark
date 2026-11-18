@@ -20,6 +20,12 @@ Acceptatiecriteria:
 · Maximaal 280 tekens toegestaan.
 · Afteller of melding bij overschrijden limiet.
 · Notitie is zichtbaar in detailweergave.
+F1 – Thumbnail tonen
+User story: Als gebruiker wil ik per game een miniatuurafbeelding kunnen zien zodat ik de lijst visueel snel kan herkennen.
+Prioriteit: Must Acceptatiecriteria:
+· Geldige afbeelding-URL toont thumbnail.
+· Foutieve URL toont een fallback-icoon.
+· Thumbnail is zichtbaar in de lijstweergave.
 
 week 3:
 B1 en A2– Game bewerken
@@ -64,6 +70,13 @@ Prioriteit: Should Acceptatiecriteria:
 · Extra velden kunnen later worden aangevuld via bewerken.
 
 week 5:
+
+C2 – Zoeken
+User story: Als gebruiker wil ik kunnen zoeken op naam en releasejaar zodat ik snel een game kan terugvinden.
+Prioriteit: Should Acceptatiecriteria:
+· Zoeken op deel van de naam toont bijbehorende resultaten.
+· Zoeken op jaar toont games met dat releasejaar.
+· Zoeken werkt samen met actieve filters.
 C3 – Sorteren
 Als gebruiker wil ik de lijst kunnen sorteren op naam, releasejaar en rating zodat ik de volgorde kan aanpassen naar mijn voorkeur.
 Prioriteit: Should 
