@@ -4,29 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <header>
-
-    <div class="headerlogo">
-        <img src="" alt="">
-        <p></p>
-    </div>
-
-    <nav>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-    </nav>
-    
-   </header> 
+    <?php
+    require_once('header.php'); 
+    ?>
 
    <main>
-
+    <div></div>
+    <div></div>
+    <div></div>
    </main>
 
-   <footer>
-
-   </footer>
+   <?php
+    require_once('footer.php'); 
+    ?>
 </body>
 </html>
