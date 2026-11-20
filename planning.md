@@ -57,6 +57,7 @@ Prioriteit: Must Acceptatiecriteria:
 
 week 4:
 E1 = Als Liam wil ik kunnen aangeven door wie een game werd aangeraden zodat ik weet van wie de tip afkomstig is.
+dus ook pagina voor gebruikers die niet beheerder zijn
 Prioriteit: Should Acceptatiecriteria:
 · Optioneel veld “Aangeraden door” bij toevoegen/bewerken.
 · Indien ingevuld wordt de naam zichtbaar bij de game.
