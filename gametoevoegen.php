@@ -21,18 +21,18 @@
              <form class="toevoegForm" method="post">
 
                  <div class="Form-Group">
-                     <label for="naam">Naam game *</label>
-                     <input type="text" id="naam" name="naam" required>
+                     <label class="LabelGameToevoegen" for="naam">Naam game *</label>
+                     <input class="InputGameToevoegen" type="text" id="naam" name="naam" required>
                  </div>
 
                  <div class="Form-Group">
-                     <label for="afbeelding">Afbeelding *</label>
-                     <input type="file" id="afbeelding" name="afbeelding" accept="image/*" required>
+                     <label class="LabelGameToevoegen" for="afbeelding">Afbeelding *</label>
+                     <input class="InputGameToevoegen" type="file" id="afbeelding" name="afbeelding" accept="image/*" required>
                  </div>
 
                  <div class="Form-Group">
-                     <label for="platform">Platform *</label>
-                     <select id="platform" name="platform" required>
+                     <label class="LabelGameToevoegen" for="platform">Platform *</label>
+                     <select  class="InputGameToevoegen" id="platform" name="platform" required>
                          <option value="" disabled selected>Selecteer platform</option>
                          <option value="PC">PC</option>
                          <option value="PlayStation">PlayStation</option>
@@ -43,8 +43,8 @@
                  </div>
 
                  <div class="Form-Group">
-                     <label for="genre">Genre *</label>
-                     <select id="genre" name="genre" required>
+                     <label class="LabelGameToevoegen" for="genre">Genre *</label>
+                     <select class="InputGameToevoegen" id="genre" name="genre" required>
                          <option value="" disabled selected>Selecteer genre</option>
                          <option value="Actie">Actie</option>
                          <option value="Avontuur">Avontuur</option>
@@ -60,13 +60,13 @@
                  </div>
 
                  <div class="Form-Group">
-                     <label for="releasejaar">Releasejaar *</label>
-                     <input type="number" id="releasejaar" name="releasejaar" min="1950" max="2100" required>
+                     <label class="LabelGameToevoegen" for="releasejaar">Releasejaar *</label>
+                     <input class="InputGameToevoegen" type="number" id="releasejaar" name="releasejaar" min="1950" max="2100" required>
                  </div>
 
                  <div class="Form-Group">
-                     <label for="status">Status *</label>
-                     <select id="status" name="status" required>
+                     <label class="LabelGameToevoegen" for="status">Status *</label>
+                     <select class="InputGameToevoegen" id="status" name="status" required>
                          <option value="" disabled selected>Selecteer status</option>
                          <option value="Wishlist">Wishlist</option>
                          <option value="In bezit">In bezit</option>
@@ -76,8 +76,8 @@
                  </div>
 
                  <div class="Form-Group">
-                     <label for="beoordeling">Beoordeling (1-10) *</label>
-                     <input type="number" id="beoordeling" name="beoordeling" min="1" max="10" required>
+                     <label class="LabelGameToevoegen" for="beoordeling">Beoordeling (1-10) *</label>
+                     <input class="InputGameToevoegen" type="number" id="beoordeling" name="beoordeling" min="1" max="10" required>
                  </div>
 
                  <hr>
@@ -86,8 +86,8 @@
                      <button type="submit" class="opslaanKnop">Opslaan</button>
                      <a href="index.php" class="annulerenKnop">Annuleren</a>
                  </div>
-
              </form>
+             <div class="line"></div>
          </div>
 
      </main>
