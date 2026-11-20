@@ -1,32 +1,4 @@
 
-.gameToevoegen{
-    width: 550px;
-    height: 400px;
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-  }
-.toevoegForm{
-    align-items: center;
-    justify-content: center;
-}
-.Form-Group{
-    width: 500px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.LabelGameToevoegen{
-    width: 160px;
-    text-align: left;
-}
-.InputGameToevoegen{
-    width: 170px;
-}
-.line{
-    border-bottom: 1px black solid ;}
 
 *{
     margin: 0;
@@ -67,4 +39,34 @@ header nav a{
 .headerlogo{
     display: flex;
 
+}
+
+.gameToevoegen{
+    width: 550px;
+    height: 400px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+.toevoegForm{
+    align-items: center;
+    justify-content: center;
+}
+.Form-Group{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.LabelGameToevoegen{
+    width: 160px;
+    text-align: left;
+}
+.InputGameToevoegen{
+    width: 170px;
+}
+.line{
+    border-bottom: 1px black solid ;
 }
