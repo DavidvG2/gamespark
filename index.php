@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <?php require_once('hoofdpagina.php'); ?>
+    <?php require_once('hoofdpagina.php'); ?>
 
 </body>
 
