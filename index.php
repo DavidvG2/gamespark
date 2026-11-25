@@ -8,7 +8,12 @@
 </head>
 <body>
     <?php require_once('hoofdpagina.php'); ?>
+<?php 
+ if (require_once 'config/conn.php'){
+    echo 'ok';
+ }
 
+?>
 </body>
 
 

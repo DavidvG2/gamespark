@@ -16,9 +16,12 @@
      <main>
 
          <div class="gameToevoegen">
-             <h1>Game toevoegen</h1>
+             <div class="ToevoegFormHeader">
+                 <a href="index.php" class="NaarIndexPaginaKnopBoven"> ←Terug naar Games </a>
+                 <h1>Game toevoegen</h1>
+             </div>
 
-             <form class="toevoegForm" method="post">
+             <form action="app/http/DataController.php" class="toevoegForm" method="post">
 
                  <div class="Form-Group">
                      <label class="LabelGameToevoegen" for="naam">Naam game *</label>
@@ -27,17 +30,18 @@
 
                  <div class="Form-Group">
                      <label class="LabelGameToevoegen" for="afbeelding">Afbeelding *</label>
-                     <input class="InputGameToevoegen" type="file" id="afbeelding" name="afbeelding" accept="image/*" required>
+                     <input class="InputGameToevoegen" type="file" id="afbeelding" name="afbeelding" accept="image/*"> 
+                     <!-- required komt later als we gaan testen met data -->
                  </div>
 
                  <div class="Form-Group">
                      <label class="LabelGameToevoegen" for="platform">Platform *</label>
-                     <select  class="InputGameToevoegen" id="platform" name="platform" required>
-                         <option value="" disabled selected>Selecteer platform</option>
+                     <select class="InputGameToevoegen" id="platform" name="platform" required>
+                        <option value="None"> none</option>
                          <option value="PC">PC</option>
                          <option value="PlayStation">PlayStation</option>
                          <option value="Xbox">Xbox</option>
-                         <option value="Nintendo Switch">Nintendo Switch</option>
+                         <option value="NintendoSwitch">Nintendo Switch</option>
                          <option value="Mobiel">Mobiel</option>
                      </select>
                  </div>
@@ -84,7 +88,7 @@
 
                  <div class="Form-Knoppen">
                      <button type="submit" class="opslaanKnop">Opslaan</button>
-                     <a href="index.php" class="annulerenKnop">Annuleren</a>
+                     <a href="index.php" class="NaarIndexPaginaKnop">Annuleren</a>
                  </div>
              </form>
              <div class="line"></div>
