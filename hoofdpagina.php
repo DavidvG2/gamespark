@@ -6,7 +6,7 @@
 
     <div class="sec1">
         <h2>Games</h2>
-        <button><a href="/gamespark/gametoevoegen.php">Game Toevoegen</a></button>
+        <button><a href="/gametoevoegen.php">Game Toevoegen</a></button>
     </div>
 
     <div class="sec2">
