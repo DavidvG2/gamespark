@@ -21,7 +21,7 @@
                  <h1>Game toevoegen</h1>
              </div>
 
-             <form action="app/http/DataController.php" class="toevoegForm" method="post">
+             <form action="app/http/DataController.php" class="toevoegForm" method="post"  enctype="multipart/form-data">
 
                  <div class="Form-Group">
                      <label class="LabelGameToevoegen" for="naam">Naam game *</label>
@@ -30,8 +30,8 @@
 
                  <div class="Form-Group">
                      <label class="LabelGameToevoegen" for="afbeelding">Afbeelding *</label>
-                     <input class="InputGameToevoegen" type="file" id="afbeelding" name="afbeelding" accept="image/*"> 
-                     <!-- required komt later als we gaan testen met data -->
+                     <input class="InputGameToevoegen" type="file" id="afbeelding" name="afbeelding" accept="image/*" value="Upload" required> 
+                    
                  </div>
 
                  <div class="Form-Group">
